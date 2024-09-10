@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>Olimpíadas</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Atividades por Emoção</h1>
+        <p class="descricao">
+          Site de busca que personaliza os resultados com base no seu estado
+          emocional. Informe como você está se sentindo, e receba recomendações
+          de músicas, vídeos, artigos e atividades que podem ajudar a melhorar
+          seu humor ou se conectar com suas necessidades.
+        </p>
+      </div>
+      <img src="./img/insideout.png" alt="divertidaDark" />
+    </header>
+    <main>
+      <div id="group">
+        <div class="card">
+          <span class="material-symbols-outlined"> counter_1 </span>
+          <p>Escolha seu humor: Diga como você está se sentindo.</p>
+        </div>
+        <div class="card">
+          <span class="material-symbols-outlined">counter_2</span>
+          <p>
+            Receba sugestões: Encontre conteúdos adaptados ao seu estado
+            emocional.
+          </p>
+        </div>
+        <div class="card">
+          <span class="material-symbols-outlined">counter_3</span>
+          <p>
+            Explore e sinta-se melhor: Descubra músicas, vídeos e artigos que
+            combinam com o seu momento.
+          </p>
+        </div>
+      </div>
+      <section>
+        <h1>Digite o nome de uma emoção:</h1>
+        <input
+          type="text"
+          placeholder="tristeza, alegria, ansiedade..."
+          id="campo-pesquisa"
+        />
+        <div>
+          <button onclick="pesquisar()">Pesquisar</button>
+          <button onclick="mostrarTudo()">Todos</button>
+        </div>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+
+    <footer>
+      <p>2024 - Atividades por Emoção Todos os direitos reservados</p>
+      <p>Entre em contato pelo email: atividades@emocao.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
