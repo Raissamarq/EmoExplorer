@@ -11,4 +11,5 @@
 
  <h2 id="layout">🎨 Layout</h2>
    
-![image](https://github.com/user-attachments/assets/90e3ff33-11d5-4c86-a89d-62ff8ee249e6)
+<img src="img/layout.png" alt="Form do Personagem"">
+<img src="img/layout.png" alt="Form do Personagem"">
