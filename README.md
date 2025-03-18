@@ -15,5 +15,6 @@
    <p>
     <img src="img/layout.png" ">
     <img src="img/pesquisa.png"">
+    <img src="img/anxiety.png"">
    </p>
 
