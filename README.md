@@ -14,6 +14,6 @@
 
    <p>
     <img src="img/layout.png" ">
-    <img src="img/insideout.png"">
+    <img src="img/pesquisa.png"">
    </p>
 
