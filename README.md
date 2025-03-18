@@ -11,5 +11,5 @@
 
  <h2 id="layout">🎨 Layout</h2>
    
-<img src="img/layout.png" alt="Form do Personagem"">
-<img src="img/layout.png" alt="Form do Personagem"">
+<img src="./img/layout.png" alt="Form do Personagem"">
+<img src="./img/layout.png" alt="Form do Personagem"">
